@@ -1,0 +1,125 @@
+# Pages CMS editor (app.pagescms.org). Every Save updates the live site in about a minute.
+media:
+  input: images
+  output: /images
+
+content:
+  - name: events
+    label: Upcoming events
+    type: file
+    path: content/events.yml
+    format: yaml
+    list: true
+    fields:
+      - {name: date, label: "Date (YYYY-MM-DD)", type: string, required: true}
+      - {name: time, label: "Start time (e.g. 21:00)", type: string}
+      - {name: name, label: Event name, type: string, required: true}
+      - {name: venue, label: Venue, type: string, required: true}
+      - {name: address, label: Address, type: string}
+      - {name: city, label: City, type: string, default: Bangkok}
+      - {name: country, label: Country, type: string, default: Thailand}
+      - {name: lineup, label: Lineup, type: string}
+      - {name: ticket_url, label: "Ticket / RSVP link", type: string}
+      - {name: poster, label: Poster, type: image}
+
+  - name: mixes
+    label: DJ mixes (SoundCloud)
+    type: file
+    path: content/mixes.yml
+    format: yaml
+    list: true
+    fields:
+      - {name: title, label: Title, type: string, required: true}
+      - {name: description, label: One-line description, type: string}
+      - {name: url, label: SoundCloud link, type: string, required: true}
+
+  - name: releases
+    label: My releases (producer)
+    type: file
+    path: content/releases.yml
+    format: yaml
+    list: true
+    fields:
+      - {name: title, label: Track title, type: string, required: true}
+      - {name: credit, label: "Credit (e.g. Berry ft. BYAS)", type: string}
+      - {name: type, label: "Type (Single, EP, Remix)", type: string}
+      - {name: date, label: "Release date (YYYY-MM)", type: string}
+      - {name: spotify_url, label: Spotify track link, type: string}
+      - {name: cover, label: Cover art, type: image}
+      - {name: description, label: Description, type: string}
+
+  - name: playlists
+    label: Spotify playlists
+    type: file
+    path: content/playlists.yml
+    format: yaml
+    list: true
+    fields:
+      - {name: title, label: Playlist name, type: string, required: true}
+      - {name: url, label: Spotify playlist link, type: string, required: true}
+      - {name: description, label: One-line description, type: string}
+
+  - name: site
+    label: Site settings & bio
+    type: file
+    path: content/site.yml
+    format: yaml
+    fields:
+      - {name: domain, label: Website address, type: string}
+      - {name: artist_name, label: Artist name, type: string}
+      - {name: stage_name, label: Stage name, type: string}
+      - {name: title_line, label: Title line, type: string}
+      - {name: tagline, label: Tagline, type: string}
+      - {name: based_in, label: Based in, type: string}
+      - {name: from, label: From, type: string}
+      - {name: email, label: Booking email, type: string}
+      - {name: whatsapp, label: WhatsApp, type: string}
+      - {name: short_bio, label: "Short bio (Google & AI read this)", type: text}
+      - {name: genres, label: Genres, type: string, list: true}
+      - {name: countries, label: Countries played, type: string, list: true}
+      - name: stats
+        label: Stats
+        type: object
+        list: true
+        fields:
+          - {name: value, type: string}
+          - {name: label, type: string}
+      - {name: quote_life, label: Quote, type: text}
+      - {name: quote_sound, label: Sound quote, type: text}
+      - name: links
+        label: Links
+        type: object
+        fields:
+          - {name: instagram, type: string}
+          - {name: spotify, type: string}
+          - {name: soundcloud, type: string}
+          - {name: bandsintown, type: string}
+          - {name: facebook, type: string}
+          - {name: youtube, type: string}
+          - {name: tiktok, type: string}
+          - {name: resident_advisor, label: Resident Advisor, type: string}
+      - {name: tech_rider, label: Technical rider, type: text}
+      - name: references
+        label: References
+        type: object
+        list: true
+        fields:
+          - {name: name, type: string}
+          - {name: role, type: string}
+
+  - name: venues
+    label: Where I've played
+    type: file
+    path: content/venues.yml
+    format: yaml
+    list: true
+    fields:
+      - {name: group, label: Group, type: string}
+      - name: items
+        label: Venues
+        type: object
+        list: true
+        fields:
+          - {name: name, type: string}
+          - {name: note, type: string}
+          - {name: highlight, label: Bold, type: boolean}

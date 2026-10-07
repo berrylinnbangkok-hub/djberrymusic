@@ -1,0 +1,45 @@
+[build]
+  command = "python3 build.py"
+  publish = "site"
+
+[build.environment]
+  PYTHON_VERSION = "3.11"
+
+# Old domain and www → main domain (one address is best for Google)
+[[redirects]]
+  from = "https://djberrymusic.com/*"
+  to = "https://berrylinnmusic.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.djberrymusic.com/*"
+  to = "https://berrylinnmusic.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.berrylinnmusic.com/*"
+  to = "https://berrylinnmusic.com/:splat"
+  status = 301
+  force = true
+
+# Short links
+[[redirects]]
+  from = "/booking"
+  to = "/book-dj/"
+  status = 301
+[[redirects]]
+  from = "/contact"
+  to = "/book-dj/"
+  status = 301
+[[redirects]]
+  from = "/epk"
+  to = "/press-kit/"
+  status = 301
+[[redirects]]
+  from = "/playlists"
+  to = "/music/#playlists"
+  status = 301
+[[redirects]]
+  from = "/mixes"
+  to = "/music/#mixes"
+  status = 301
