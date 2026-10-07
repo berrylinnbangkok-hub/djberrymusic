@@ -517,6 +517,9 @@ page("/404", "Page not found | DJ Berry", "This page does not exist.", "Not foun
 # ================= STATIC FILES =================
 shutil.copy("styles.css", OUT)
 shutil.copytree("images", os.path.join(OUT, "images"), dirs_exist_ok=True)
+# Files in static/ (e.g. Google/Bing verification files) are copied to the site root
+if os.path.isdir("static"):
+    shutil.copytree("static", OUT, dirs_exist_ok=True)
 open(f"{OUT}/site.js", "w").write("""// Hide events whose date has passed (in case the site hasn't been rebuilt yet).
 (function(){var t=new Date();t.setHours(0,0,0,0);
 document.querySelectorAll('.event[data-date]').forEach(function(li){var d=new Date(li.dataset.date+'T23:59:59');if(d<t)li.remove();});
