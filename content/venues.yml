@@ -1,0 +1,44 @@
+# Where she's played (from the 2026 press kit).
+- group: Festivals
+  items:
+    - {name: Wonderfruit, note: "2022", highlight: true}
+    - {name: Full Moon Festival, note: Koh Phangan}
+    - {name: Leo Festival, note: Koh Tao}
+    - {name: "UOB Live, Agoda Festival", note: Bangkok}
+    - {name: Yan Festival, note: Bangsaen}
+    - {name: Jungle Rave, note: "Pai · Koh Tao"}
+- group: Bangkok residencies
+  items:
+    - {name: Mustache Bangkok, note: Resident, highlight: true}
+    - {name: Bangkok Island, note: Resident, highlight: true}
+    - {name: Pickwick Chronicles, note: Resident, highlight: true}
+- group: Bangkok clubs & rooftops
+  items:
+    - {name: Sing Sing Theater, note: Club, highlight: true}
+    - {name: "Baccarat · APT 101 · MU:IN", note: Club}
+    - {name: "Levels · Smalls · Eden · Irie", note: Club}
+    - {name: "ETA Bangkok · ETA Techno Club", note: Club}
+    - {name: "Paradise Lost · Rabbit Hole", note: Club}
+    - {name: "Escape Bangkok · Iron Ball · 12×12", note: Club}
+    - {name: "Hanuman Sky · Seen · Sin Rooftop", note: Rooftop}
+    - {name: "Sofitel · Cagette · Anaconda", note: Venue}
+    - {name: Fump Warehouse Rave, note: Chang Chui}
+    - {name: "Fump Techno · Raves Time BKK", note: Party}
+    - {name: Silent Vibes, note: Silent disco}
+- group: Phuket & the islands
+  items:
+    - {name: "Shelter · Solis", note: Phuket}
+    - {name: "Catch Beach Club · Carpe Diem", note: Phuket}
+    - {name: Botanics at Tichuca, note: Phuket}
+    - {name: "Esco Bar · Secret Party", note: Koh Tao}
+    - {name: Paradise Beach, note: Thailand}
+- group: International
+  items:
+    - {name: Zouk, note: "Colombo, Sri Lanka"}
+    - {name: Cheeky Monkey, note: "Midigama, Sri Lanka"}
+    - {name: House of Chapora, note: "Goa, India"}
+    - {name: White Banana, note: "Manila, Philippines"}
+- group: Radio & media
+  items:
+    - {name: "Durian Radio · Sync Radio", note: Radio}
+    - {name: Phyoke Network, note: Myanmar}

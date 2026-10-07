@@ -1,0 +1,41 @@
+# Main website settings. Edit in Pages CMS → "Site settings".
+domain: https://berrylinnmusic.com
+artist_name: Berry Linn
+stage_name: DJ Berry
+title_line: Bangkok-Based DJ & Music Producer
+tagline: Slightly dangerous behind the decks.
+based_in: Bangkok, Thailand
+from: Myanmar
+email: berrylinnbangkok@gmail.com
+whatsapp: "+66 95 185 1958"
+short_bio: >-
+  Berry Linn, known as DJ Berry, is a Bangkok-based DJ and music producer from Myanmar.
+  She plays house, tech house, afro house and techno, has performed for more than five years
+  across seven countries, and released her debut single "SACHI" in March 2026.
+  She is part of the Deep House Thailand lineup and is available for bookings worldwide.
+genres: [House, Tech House, Afro House, Indie Dance, Minimal, Disco, Techno, Acid]
+countries: [Thailand, Myanmar, India, Sri Lanka, Singapore, Vietnam, Philippines]
+stats:
+  - {value: "5+", label: Years performing}
+  - {value: "50+", label: Venues & festivals}
+  - {value: "7", label: Countries played}
+quote_life: "Life may not be the party we hoped for, but while we're here, we should dance."
+quote_sound: "I don't switch genres. I blend moods. Every set is a journey designed for bodies, not algorithms."
+links:
+  instagram: https://www.instagram.com/berry_linn/
+  spotify: https://open.spotify.com/user/31557sidxax7x7vt6vtzxf5r54hm
+  soundcloud: https://soundcloud.com/berrybangkok25
+  bandsintown: https://www.bandsintown.com/a/15638110
+  facebook: https://www.facebook.com/berrylinn2017
+  youtube: ""
+  tiktok: ""
+  resident_advisor: ""
+tech_rider: >-
+  2 or 3 × Pioneer CDJ-3000 or CDJ-2000NXS2 (linked) · Pioneer DJM-900NXS2 or DJM-A9 ·
+  two booth monitors with separate volume control · plays from USB (rekordbox).
+references:
+  - {name: Mizuyo Fukui, role: DJ & Music Director}
+  - {name: Henry C., role: Mixmag Asia}
+  - {name: Alexandre Lorent, role: "Founder, Asia Pillars"}
+  - {name: Polo Ruesz, role: Lives Promotion BKK}
+  - {name: DJ K-MRK, role: DJ & Music Producer}
