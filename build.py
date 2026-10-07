@@ -220,7 +220,7 @@ HOME_FAQ = [
     ("What music does DJ Berry play?", "House, tech house, afro house, indie dance, minimal, disco, techno and acid. Berry blends moods rather than switching genres, moving from warm, groovy sets to dark, hypnotic techno when the night asks for it."),
     ("Is DJ Berry also a music producer?", "Yes. Berry released her debut single \"SACHI\" (Berry ft. BYAS) in March 2026, followed by \"24 Turn It Up\". Both are on Spotify and all streaming platforms."),
     ("Where has DJ Berry played?", "Wonderfruit, Sing Sing Theater, Mustache Bangkok, Baccarat, APT 101, MU:IN, Full Moon Festival, UOB Live and many more, across Thailand, Myanmar, India, Sri Lanka, Singapore, Vietnam and the Philippines."),
-    ("How do I book DJ Berry?", f"Email {EMAIL}, message WhatsApp {S['whatsapp']}, or send a request at berrylinnmusic.com/book-dj. Berry is based in Bangkok and available for bookings worldwide."),
+    ("How do I book DJ Berry?", f"Email {EMAIL}, message WhatsApp {S['whatsapp']}, or send a request at djberrymusic.com/book-dj. Berry is based in Bangkok and available for bookings worldwide."),
 ]
 page("/", "DJ Berry — Bangkok-Based DJ & Music Producer | Berry Linn",
      "DJ Berry (Berry Linn) is a Bangkok-based female DJ and music producer from Myanmar playing house, tech house, afro house and techno. Debut single SACHI out now. Bookings worldwide.",

@@ -5,20 +5,10 @@
 [build.environment]
   PYTHON_VERSION = "3.11"
 
-# Old domain and www → main domain (one address is best for Google)
-[[redirects]]
-  from = "https://djberrymusic.com/*"
-  to = "https://berrylinnmusic.com/:splat"
-  status = 301
-  force = true
+# www → main domain (one address is best for Google)
 [[redirects]]
   from = "https://www.djberrymusic.com/*"
-  to = "https://berrylinnmusic.com/:splat"
-  status = 301
-  force = true
-[[redirects]]
-  from = "https://www.berrylinnmusic.com/*"
-  to = "https://berrylinnmusic.com/:splat"
+  to = "https://djberrymusic.com/:splat"
   status = 301
   force = true
 

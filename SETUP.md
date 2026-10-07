@@ -1,4 +1,4 @@
-# berrylinnmusic.com — go-live guide
+# djberrymusic.com — go-live guide
 
 The site is built from the small text files in `content/` (events, mixes, releases, playlists, bio).
 You edit those in a simple editor (Pages CMS) and Netlify updates the site automatically.
@@ -21,8 +21,8 @@ You edit those in a simple editor (Pages CMS) and Netlify updates the site autom
    Turn on email notifications so booking requests reach berrylinnbangkok@gmail.com.
 
 ## Step 3 — Connect your domains (Namecheap)
-1. Netlify → your project → **Domain management → Add a domain** → `berrylinnmusic.com`.
-2. Also add `djberrymusic.com` as a **domain alias** (it forwards to berrylinnmusic.com).
+1. Netlify → your project → **Domain management → Add a domain** → `djberrymusic.com`.
+2. Also add `www.djberrymusic.com` (Netlify usually adds it for you).
 3. In Namecheap → **Domain List → Manage → Advanced DNS** for each domain:
    - delete the old parking records
    - add the records Netlify shows you (usually an **A record** `@` → Netlify's IP, and a **CNAME** `www` → `yoursite.netlify.app`)
@@ -36,10 +36,10 @@ You edit those in a simple editor (Pages CMS) and Netlify updates the site autom
    - Playlists: Spotify → playlist → ⋯ → Share → Copy link to playlist → paste.
 
 ## Step 5 — Google & AI search
-1. Google Search Console → add `berrylinnmusic.com` → verify (DNS TXT in Namecheap) → submit `https://berrylinnmusic.com/sitemap.xml`.
+1. Google Search Console → add `djberrymusic.com` → verify (DNS TXT in Namecheap) → submit `https://djberrymusic.com/sitemap.xml`.
 2. Bing Webmaster Tools → import from Google (helps ChatGPT / Copilot search).
-3. Put **berrylinnmusic.com** in your Instagram, Spotify, SoundCloud, Bandsintown and Facebook bios.
-4. Update the old Wix press kit: "Official site: berrylinnmusic.com".
+3. Put **djberrymusic.com** in your Instagram, Spotify, SoundCloud, Bandsintown and Facebook bios.
+4. Update the old Wix press kit: "Official site: djberrymusic.com".
 
 ## Still to add
 - [ ] Spotify playlist links (Music page shows a "Follow on Spotify" button until then)
