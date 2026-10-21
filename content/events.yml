@@ -1,3 +1,13 @@
+- date: "2026-10-24"
+  time: "23:59"
+  name: "After Party at Dirty Rabbit Underground"
+  venue: Dirty Rabbit Underground
+  address: 2nd Floor, Yen Akard Soi 2 Yak 6, Sathon
+  city: Bangkok
+  country: Thailand
+  lineup: "DJ Berry"
+  ticket_url: https://www.bandsintown.com/e/109057440
+  poster: ""
 # Upcoming gigs. Past dates hide themselves automatically.
 - date: "2026-10-30"
   time: "18:00"
