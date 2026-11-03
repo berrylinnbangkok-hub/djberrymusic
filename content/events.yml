@@ -1,3 +1,23 @@
+- date: "2026-11-06"
+  time: ""
+  name: "Friday Night Party at APT 101"
+  venue: APT 101
+  address: ""
+  city: Bangkok
+  country: Thailand
+  lineup: "DJ Berry"
+  ticket_url: https://www.bandsintown.com/e/109114595
+  poster: ""
+- date: "2026-11-07"
+  time: ""
+  name: "Saturday Night Techno at Mustache Bangkok"
+  venue: Mustache Bangkok
+  address: ""
+  city: Bangkok
+  country: Thailand
+  lineup: "DJ Berry"
+  ticket_url: https://www.bandsintown.com/e/109114630
+  poster: ""
 - date: "2026-10-24"
   time: "23:59"
   name: "After Party at Dirty Rabbit Underground"
