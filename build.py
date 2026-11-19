@@ -174,6 +174,13 @@ from urllib.parse import quote
 def mix_cards(limit=None):
     out = []
     for m in MIXES[:limit]:
+        yt = re.search(r"(?:youtube\.com/watch\?v=|youtu\.be/|youtube\.com/live/)([\w-]{11})", m["url"])
+        if yt:
+            out.append(f'''<article class="release mix"><span class="label">DJ set · YouTube</span>
+  <h3 style="font-size:clamp(26px,2.6vw,36px)">{e(m["title"])}</h3><p>{e(m.get("description"))}</p>
+  <iframe class="embed" style="height:auto;aspect-ratio:16/9;border-radius:4px" title="{e(m["title"])} — DJ Berry on YouTube" src="https://www.youtube-nocookie.com/embed/{yt.group(1)}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <a class="btn small" href="{e(m["url"])}" target="_blank" rel="noopener">Watch on YouTube</a></article>''')
+            continue
         src = "https://w.soundcloud.com/player/?url=" + quote(m["url"], safe="") + "&amp;color=%23ff3b1f&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"
         out.append(f'''<article class="release mix"><span class="label">DJ mix · SoundCloud</span>
   <h3 style="font-size:clamp(26px,2.6vw,36px)">{e(m["title"])}</h3><p>{e(m.get("description"))}</p>
